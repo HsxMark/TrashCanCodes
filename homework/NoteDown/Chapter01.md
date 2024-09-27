@@ -1,6 +1,8 @@
 # <center>Birdiebot Note
 # <center>木鸢机甲培训笔记
 ## <center>Chapter01 通识课培训
+This file sync GitHub:
+https://github.com/HsxMark/TrashCanCodes.git
 #### 零、预备队要求
 要求1：按时完成各组培训负责人安排的任务，重点**学习报告**！
 要求2：互帮互助，团结友爱，融入实验室氛围
@@ -41,9 +43,7 @@ AI识别、环境交互、全局感知、路径规划……
 王俊桦  
 
 HsxMark  
-2024/09/28  
+2024/09/27  
 </div>
-
-
 
 

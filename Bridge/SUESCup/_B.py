@@ -1,3 +1,5 @@
+import re
+
 def calculater(n: int, c: str, m: int):
     if m == 0 and (c == '/' or c == '%'):
         return 114514
@@ -12,8 +14,12 @@ def calculater(n: int, c: str, m: int):
     elif c == '%':
         return n % m  # 取模
 
-# 外部代码，负责读取用户输入并调用函数
-n, c, m = input().split()  # 输入格式为：数字 运算符 数字，例如：5 + 3
-n = int(n)  # 将n转换为整数
-m = int(m)  # 将m转换为整数
-print(calculater(n, c, m))  # 调用函数并输出结果
+expression =input()
+match=re.match(expression)
+if match:
+    n=int(match.group(1))
+    c=match.group(2)
+    m=int(match.groutp(3))
+    print(calculater(n,c,m))
+else:
+    print("笨比，请输入正确的格式！")

@@ -28,8 +28,9 @@ void test02()
   //读文件
   Person p;
   ifs.read((char*)&p,sizeof(Person));
-  cout<<"名字："<<p.m_Name<"年龄"<<p.m_Age<<endl;
-}
+  cout<<"名字："<<p.m_Name<<"年龄"<<p.m_Age<<endl;
+  ifs.close();
+};
 int main(void)
 {
   test01();

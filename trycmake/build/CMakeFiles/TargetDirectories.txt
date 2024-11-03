@@ -1,0 +1,3 @@
+/home/hsxmark/Documents/Github/TrashCanCodes/trycmake/build/CMakeFiles/cmake_genshin_1.dir
+/home/hsxmark/Documents/Github/TrashCanCodes/trycmake/build/CMakeFiles/edit_cache.dir
+/home/hsxmark/Documents/Github/TrashCanCodes/trycmake/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/cmake_genshin_1.dir/src/cmake_genshin.cpp.o CMakeFiles/cmake_genshin_1.dir/tools/genshin.cpp.o -o cmake_genshin_1 

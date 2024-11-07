@@ -1,0 +1,3 @@
+/home/hsxmark/Documents/Github/TrashCanCodes/homework/JustType/BigInt/build/CMakeFiles/BigIntExe.dir
+/home/hsxmark/Documents/Github/TrashCanCodes/homework/JustType/BigInt/build/CMakeFiles/edit_cache.dir
+/home/hsxmark/Documents/Github/TrashCanCodes/homework/JustType/BigInt/build/CMakeFiles/rebuild_cache.dir

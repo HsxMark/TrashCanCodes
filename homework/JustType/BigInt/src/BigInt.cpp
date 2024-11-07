@@ -68,7 +68,6 @@ BigInt BigInt::operator-(const BigInt& other) const
         }
         result.num.push_back(diff);
     }
-    result.removeLeadingZeros();
     result.len = result.num.size();
     return result;
 }
@@ -88,7 +87,6 @@ BigInt BigInt::operator*(const BigInt& other) const
             carry = prod / 10;
         }
     }
-    result.removeLeadingZeros();
     result.len = result.num.size();
     return result;
 }
@@ -107,13 +105,5 @@ void BigInt::output() const
         std::cout << num[i];
     }
     std::cout << std::endl;
-}
-
-
-void BigInt::removeLeadingZeros() {
-    while (num.size() > 1 && num.back() == 0) 
-    {
-        num.pop_back();
-    }
 }
 

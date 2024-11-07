@@ -1,8 +1,6 @@
-cmake_minimum_required(VERSION 3.10)
-project(BigIntProject)
+cmake_minimum_required(VERSION 3.11)
+project(BigInt)
 
-add_library(BigInt STATIC BigInt.cpp)
+include_directories(./include)
 
-add_executable(BigIntExecutable main.cpp)
-
-target_link_libraries(BigIntExecutable PRIVATE BigInt)
+add_executable(BigIntExe ./src/main.cpp ./src/BigInt.cpp)
